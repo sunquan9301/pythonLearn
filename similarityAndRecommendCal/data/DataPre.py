@@ -22,7 +22,26 @@ class DataPre:
         )
         return 1 / (1 + math.sqrt(sum_distance))
 
-    def topMatches(self, person, method,n=3):
+
+
+    def getRecommends(self, person, similarity):
+        totals = {}
+        simSums = {}
+        for other in self.data:
+            if (other == person): continue
+            sim = similarity(person, other)
+            if sim <= 0: continue
+            for item in self.data[other]:
+                if item not in self.data[person] or self.data[person][item] == 0:
+                    totals.setdefault(item, 0)
+                    totals[item] += self.data[other][item] * sim
+                    simSums.setdefault(item, 0)
+                    simSums[item] += sim
+
+        rankings = [(total / simSums[item], item) for item, total in totals.items()]
+        return rankings
+
+    def topMatches(self, person, method, n=3):
         scores = [(method(person, other), other) for other in self.data if other != person]
         scores.sort()
         scores.reverse()
