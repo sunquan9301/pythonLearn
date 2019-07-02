@@ -1,6 +1,5 @@
 from similarityAndRecommendCal.data.Recommendations import critics
 from similarityAndRecommendCal.data.DataPre import DataPre
-
 """
     1.相似度计算，定义了欧拉距离和皮尔森距离来做物品相似度推荐 dataPre.topMatches
     2.推荐电影 dataPre.recommendMovies, 选择不同的推荐算法对结果影响甚微
