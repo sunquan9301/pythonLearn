@@ -5,8 +5,9 @@ import clustering.Config as config
 class Clusters:
 
     def startCluster(self):
-        rownames, colnames, data = self.readFile(config.outputName)
-        self.hcluster(data)
+        blognames, words, data = self.readFile(config.outputName)
+        clust = self.hcluster(data)
+        self.printclust(clust, labels=blognames)
 
     def readFile(self, fileName):
         lines = []
@@ -24,6 +25,15 @@ class Clusters:
             rownames.append(p[0])
             data.append([float(x) for x in p[1:]])
         return rownames, colnames, data
+
+    def printclust(self, clust, labels=None, n=0):
+        str = ''
+
+        for i in range(n):
+            str = str + " "
+        print(str, '-' if clust.id < 0 else clust.id)
+        if clust.left != None: self.printclust(clust.left, labels=labels, n=n + 1)
+        if clust.right != None: self.printclust(clust.right, labels=labels, n=n + 1)
 
     def hcluster(self, rows, method=DataPreUtil.DataUtil.pearson):
         distances = {}
