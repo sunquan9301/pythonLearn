@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a8f8602b-aeda-4d08-9826-9a3a7deced3b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/DataPreUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/clustering/DataPreUtil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/clustering/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/clusters.py" beforeDir="false" afterPath="$PROJECT_DIR$/clustering/Clusters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/Clusters.py" beforeDir="false" afterPath="$PROJECT_DIR$/clustering/Clusters.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +18,7 @@
     <SUITE FILE_PATH="coverage/PythonLearn$practice1__1_.coverage" NAME="practice1 (1) Coverage Results" MODIFIED="1561878686461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/headfirstpython" />
     <SUITE FILE_PATH="coverage/PythonLearn$Main1.coverage" NAME="Main1 Coverage Results" MODIFIED="1560337749387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day9" />
     <SUITE FILE_PATH="coverage/PythonLearn$practice3.coverage" NAME="practice3 Coverage Results" MODIFIED="1561714586556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thehardway" />
-    <SUITE FILE_PATH="coverage/PythonLearn$Main__3_.coverage" NAME="Main (3) Coverage Results" MODIFIED="1562149526544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clustering" />
+    <SUITE FILE_PATH="coverage/PythonLearn$Main__3_.coverage" NAME="Main (3) Coverage Results" MODIFIED="1562153881097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clustering" />
     <SUITE FILE_PATH="coverage/PythonLearn$DataUtil.coverage" NAME="DataUtil Coverage Results" MODIFIED="1562053658623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clustering" />
     <SUITE FILE_PATH="coverage/PythonLearn$practice2.coverage" NAME="practice2 Coverage Results" MODIFIED="1561708914096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thehardway" />
     <SUITE FILE_PATH="coverage/PythonLearn$practice4.coverage" NAME="practice4 Coverage Results" MODIFIED="1561717644982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thehardway" />
@@ -31,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clustering/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -40,11 +38,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/ImageFont.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-131">
+              <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clustering/Clusters.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="122">
+              <caret line="55" column="62" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -53,10 +60,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clustering/blogclust.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clustering/blogdata.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -64,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/typing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
+            <state relative-caret-position="22770">
               <caret line="1528" column="8" selection-start-line="1528" selection-start-column="8" selection-end-line="1528" selection-end-column="8" />
             </state>
           </provider>
@@ -73,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clustering/DataPreUtil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-159">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="158">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -95,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/feedparser.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="166">
-              <caret line="3816" column="4" selection-start-line="3816" selection-start-column="4" selection-end-line="3816" selection-end-column="4" />
+              <caret line="355" selection-start-line="355" selection-end-line="355" />
             </state>
           </provider>
         </entry>
@@ -105,24 +117,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thehardway/practice3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thehardway/practice4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -180,15 +174,15 @@
         <option value="$PROJECT_DIR$/clustering/Config.py" />
         <option value="$PROJECT_DIR$/clustering/clusters.py" />
         <option value="$PROJECT_DIR$/clustering/DataPreUtil.py" />
-        <option value="$PROJECT_DIR$/clustering/Clusters.py" />
         <option value="$PROJECT_DIR$/clustering/Main.py" />
+        <option value="$PROJECT_DIR$/clustering/Clusters.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-72" />
+    <option name="x" value="34" />
     <option name="y" value="23" />
-    <option name="width" value="1098" />
+    <option name="width" value="1324" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -389,19 +383,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27030000" />
+    <option name="totallyTimeSpent" value="30074000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-72" y="23" width="1098" height="877" extended-state="0" />
+    <frame x="34" y="23" width="1324" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13825758" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21918876" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.48280254" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3987261" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.522293" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987261" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -436,8 +430,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/clustering/Clusters.py</url>
-          <line>46</line>
-          <option name="timeStamp" value="3" />
+          <line>55</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -571,7 +565,7 @@
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/feedparser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
-          <caret line="3816" column="4" selection-start-line="3816" selection-start-column="4" selection-end-line="3816" selection-end-column="4" />
+          <caret line="355" selection-start-line="355" selection-end-line="355" />
         </state>
       </provider>
     </entry>
@@ -584,7 +578,7 @@
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/typing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
+        <state relative-caret-position="22770">
           <caret line="1528" column="8" selection-start-line="1528" selection-start-column="8" selection-end-line="1528" selection-end-column="8" />
         </state>
       </provider>
@@ -599,14 +593,14 @@
     <entry file="file://$PROJECT_DIR$/clustering/blogdata.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clustering/DataPreUtil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-159">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="158">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>
@@ -615,18 +609,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/clustering/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/PIL/ImageFont.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-131">
+          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clustering/blogclust.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/clustering/Clusters.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="122">
+          <caret line="55" column="62" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
