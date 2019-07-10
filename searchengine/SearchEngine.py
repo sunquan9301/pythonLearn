@@ -1,5 +1,6 @@
 from urllib import request, parse
 from bs4 import *
+import sqlite3
 import ssl
 
 
@@ -8,12 +9,25 @@ class Crawler:
         if hasattr(ssl, '_create_unverified_context'):
             ssl._create_default_https_context = ssl._create_unverified_context
 
-    def __del__(self):
+        self.con = sqlite3.connect(dbname)
 
-        pass
+    def __del__(self):
+        self.con.close()
 
     def dbcommit(self):
-        pass
+        self.con.commit()
+
+    def createIndexTables(self):
+        self.con.execute('create table url_list(url)')
+        self.con.execute('create table word_list(word)')
+        self.con.execute('create table word_location(urlid,wordid,location)')
+        self.con.execute('create table link(fromid integer,toid integer)')
+        self.con.execute('create table link_words(wordid,linkid)')
+        self.con.execute('create index wordidx on word_list(word)')
+        self.con.execute('create index urlidx on url_list(url)')
+        self.con.execute('create index wordurlidx on wordlocation(wordid)')
+        self.con.execute('create index urltoidx on link(toid)')
+        self.con.execute('create index urlfromidx on link(fromid)')
 
     # 获取条目的id,如果条目不存在，就将其加入数据库中
     def getentryid(self, table, field, value, createnew=True):
