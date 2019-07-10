@@ -1,12 +1,15 @@
-from urllib import parse,request
+from urllib import request, parse
 from bs4 import *
+import ssl
 
 
-class crawler:
+class Crawler:
     def __init__(self, dbname):
-        pass
+        if hasattr(ssl, '_create_unverified_context'):
+            ssl._create_default_https_context = ssl._create_unverified_context
 
     def __del__(self):
+
         pass
 
     def dbcommit(self):
@@ -44,24 +47,27 @@ class crawler:
             for page in pages:
                 try:
                     c = request.urlopen(page)
-                except:
+                except Exception as e:
                     print("Could not open %s" % page)
+                    print("error msg is ", e.args)
                     continue
-                soup = BeautifulSoup(c.read())
-                self.addtoindex(page,soup)
+                soup = BeautifulSoup(c.read(), "html.parser")
+                self.addtoindex(page, soup)
 
                 links = soup('a')
                 for link in links:
-                    if('href' in dict(link.attrs)):
-                        url = parse.urljoin(page,link['href'])
-                        if url.find("'")!=-1:continue
+                    if ('href' in dict(link.attrs)):
+                        url = parse.urljoin(page, link['href'])
+                        if url.find("'") != -1: continue
                         url = url.split('#')[0]
                         if url[0:4] == 'http' and not self.isindexed(url):
                             newpages.add(url)
                         linkText = self.gettextonly(link)
-                        self.addlinkref(page,url,linkText)
+                        self.addlinkref(page, url, linkText)
                 self.dbcommit()
             pages = newpages
+
+        print("end")
 
     # 创建数据库表
     def createindextables(self):

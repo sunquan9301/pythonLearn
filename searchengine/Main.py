@@ -1,11 +1,16 @@
+from searchengine.SearchEngine import Crawler
 from urllib import request, error, parse, robotparser, response
 
+
 def main():
-    c = request.urlopen('http://baidu.com/')
-    contents = c.read()
-    print(contents)
+    pagelist = ['http://www.hao123.com/']
+    crawler = Crawler('')
+    crawler.crawl(pagelist)
+
+    # c = request.urlopen('http://www.hao123.com/')
+    # contents = c.read()
+    # print(contents)
 
 
 if (__name__ == "__main__"):
     main()
-
