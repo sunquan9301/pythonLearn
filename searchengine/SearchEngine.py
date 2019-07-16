@@ -20,16 +20,19 @@ class Crawler:
         self.con.commit()
 
     def createIndexTables(self):
-        self.con.execute('create table url_list(url)')
-        self.con.execute('create table word_list(word)')
-        self.con.execute('create table word_location(urlid,wordid,location)')
-        self.con.execute('create table link(fromid integer,toid integer)')
-        self.con.execute('create table link_words(wordid,linkid)')
-        self.con.execute('create index wordidx on word_list(word)')
-        self.con.execute('create index urlidx on url_list(url)')
-        self.con.execute('create index wordurlidx on word_location(wordid)')
-        self.con.execute('create index urltoidx on link(toid)')
-        self.con.execute('create index urlfromidx on link(fromid)')
+        try:
+            self.con.execute('create table url_list(url)')
+            self.con.execute('create table word_list(word)')
+            self.con.execute('create table word_location(urlid,wordid,location)')
+            self.con.execute('create table link(fromid integer,toid integer)')
+            self.con.execute('create table link_words(wordid,linkid)')
+            self.con.execute('create index wordidx on word_list(word)')
+            self.con.execute('create index urlidx on url_list(url)')
+            self.con.execute('create index wordurlidx on word_location(wordid)')
+            self.con.execute('create index urltoidx on link(toid)')
+            self.con.execute('create index urlfromidx on link(fromid)')
+        except Exception as e:
+            print(e.args)
 
     # 获取条目的id,如果条目不存在，就将其加入数据库中
     def getentryid(self, table, field, value, createnew=True):
@@ -47,6 +50,7 @@ class Crawler:
         print('Indexing %s' % url)
 
         text = self.gettextonly(soup)
+        print("text = %s" % text)
         words = self.separatewords(text)
 
         urlid = self.getentryid('urllist', 'url', url)
@@ -60,16 +64,7 @@ class Crawler:
 
     # 从一个HTML网页中提取文字
     def gettextonly(self, soup):
-        v = soup.string
-        if v == None:
-            c = soup.content
-            resulttext = ""
-            for t in c:
-                subtext = self.gettextonly(t)
-                resulttext += subtext + '\n'
-            return resulttext
-        else:
-            return v.strip()
+        return soup.text.strip()
 
     # 根据任何非空白字符进行分词处理
     """
@@ -83,7 +78,7 @@ class Crawler:
 
     # 如果url已经建立索引，则返回true
     def isindexed(self, url):
-        u = self.con.execute("select rowid from urllist where url = '%s'" % url).fetchone()
+        u = self.con.execute("select rowid from url_list where url = '%s'" % url).fetchone()
         if u != None:
             v = self.con.execute('select * from word_location where urlid=%d' % u[0]).fetchone()
             if v != None: return True

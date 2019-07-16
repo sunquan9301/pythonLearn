@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8f8602b-aeda-4d08-9826-9a3a7deced3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/searchengine/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/searchengine/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/searchengine/SearchEngine.py" beforeDir="false" afterPath="$PROJECT_DIR$/searchengine/SearchEngine.py" afterDir="false" />
@@ -20,11 +21,30 @@
     <SUITE FILE_PATH="coverage/PythonLearn$Main1.coverage" NAME="Main1 Coverage Results" MODIFIED="1560337749387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day9" />
     <SUITE FILE_PATH="coverage/PythonLearn$practice3.coverage" NAME="practice3 Coverage Results" MODIFIED="1561714586556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thehardway" />
     <SUITE FILE_PATH="coverage/PythonLearn$Main__3_.coverage" NAME="Main (3) Coverage Results" MODIFIED="1562153881097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clustering" />
-    <SUITE FILE_PATH="coverage/PythonLearn$Main__4_.coverage" NAME="Main (4) Coverage Results" MODIFIED="1562848946367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/searchengine" />
+    <SUITE FILE_PATH="coverage/PythonLearn$Main__4_.coverage" NAME="Main (4) Coverage Results" MODIFIED="1563282646377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/searchengine" />
     <SUITE FILE_PATH="coverage/PythonLearn$DataUtil.coverage" NAME="DataUtil Coverage Results" MODIFIED="1562053658623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/clustering" />
     <SUITE FILE_PATH="coverage/PythonLearn$practice2.coverage" NAME="practice2 Coverage Results" MODIFIED="1561708914096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thehardway" />
     <SUITE FILE_PATH="coverage/PythonLearn$practice4.coverage" NAME="practice4 Coverage Results" MODIFIED="1561717644982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/thehardway" />
     <SUITE FILE_PATH="coverage/PythonLearn$Main__2_.coverage" NAME="Main (2) Coverage Results" MODIFIED="1561971030725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/similarityAndRecommendCal" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="searchindex" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="PythonLearn" />
@@ -43,33 +63,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/searchengine/SearchEngine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="135">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/sqlite3/__init__.pyi">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7395">
-              <caret line="495" column="4" selection-start-line="495" selection-start-column="4" selection-end-line="495" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -83,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/searchengine/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="90">
+              <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -124,6 +125,8 @@
       <find>sepa</find>
       <find>comp</find>
       <find>&quot;&quot;&quot;</find>
+      <find>execu</find>
+      <find>word_location</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,8 +162,8 @@
         <option value="$PROJECT_DIR$/clustering/Main.py" />
         <option value="$PROJECT_DIR$/clustering/Clusters.py" />
         <option value="$PROJECT_DIR$/searchengine/searchengine.py" />
-        <option value="$PROJECT_DIR$/searchengine/Main.py" />
         <option value="$PROJECT_DIR$/searchengine/SearchEngine.py" />
+        <option value="$PROJECT_DIR$/searchengine/Main.py" />
       </list>
     </option>
   </component>
@@ -185,33 +188,7 @@
             <path>
               <item name="PythonLearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="clustering" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="headfirstpython" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonLearn" type="462c0819:PsiDirectoryNode" />
               <item name="searchengine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="similarityAndRecommendCal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="similarityAndRecommendCal" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="thehardway" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -378,22 +355,24 @@
       <workItem from="1561980431520" duration="956000" />
       <workItem from="1562053057089" duration="5713000" />
       <workItem from="1562585985708" duration="11482000" />
-      <workItem from="1562848421215" duration="967000" />
+      <workItem from="1562848421215" duration="2776000" />
+      <workItem from="1563281642330" duration="941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42782000" />
+    <option name="totallyTimeSpent" value="45532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.70542634" visible="true" weight="0.30472103" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.70542634" visible="true" weight="0.31330472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.29457363" side_tool="true" weight="0.30472103" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37831324" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37831324" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39759037" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -402,13 +381,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.17951807" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.12530121" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.040057223" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,6 +410,11 @@
           <url>file://$PROJECT_DIR$/clustering/Clusters.py</url>
           <line>55</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/searchengine/SearchEngine.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -670,6 +654,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.3/python_stubs/1861909702/_sqlite3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2625">
+          <caret line="175" column="13" selection-start-line="175" selection-start-column="8" selection-end-line="175" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/sqlite3/__init__.pyi">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -687,25 +681,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/searchengine/Main.py">
+    <entry file="file://$PROJECT_DIR$/searchengine/SearchEngine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="135">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/searchengine/SearchEngine.py">
+    <entry file="file://$PROJECT_DIR$/searchengine/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="90">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>

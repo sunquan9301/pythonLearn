@@ -3,10 +3,10 @@ from urllib import request, error, parse, robotparser, response
 
 
 def main():
-    pagelist = ['http://www.hao123.com/']
-    crawler = Crawler('')
-    # crawler.crawl(pagelist)
+    pagelist = ['https://www.huxiu.com/']
+    crawler = Crawler('searchindex.db')
     crawler.createIndexTables()
+    crawler.crawl(pagelist)
 
     # c = request.urlopen('http://www.hao123.com/')
     # contents = c.read()
